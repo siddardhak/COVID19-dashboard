@@ -1,0 +1,30 @@
+.tableclass{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+.rowclassname{
+    text-align: center;
+}
+.country{
+    text-align: left;
+}
+.heading{
+    text-align: left;
+}
+#countryData td, #countryData th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#countryData tr:nth-child(even){background-color: #f2f2f2;}
+
+#countryData tr:hover {background-color: #ddd;}
+
+#countryData th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:blue;
+  color: white;
+}

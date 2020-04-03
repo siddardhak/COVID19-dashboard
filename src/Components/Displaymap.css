@@ -1,0 +1,56 @@
+.worldmap{
+    margin-top: 100px;
+    text-align: center;
+}
+svg{
+    height:600px
+}
+.box{
+    display: inline-block;
+    width:65px;
+    height:65px;
+    border: 1px solid #eeeeee;
+    box-shadow: 2px 2px 2px #cccccc;
+    padding: 20px;
+    background-color:#FABCBD;
+    text-align: center;
+}
+.box1{
+    display: inline-block;
+    width:65px;
+    height:65px;
+    border: 1px solid #eeeeee;
+    box-shadow: 2px 2px 2px #cccccc;
+    padding: 20px;
+    margin-left: 20px;
+    background-color:#9388E5;
+    text-align: center;
+}
+
+.box2{
+    display: inline-block;
+    width:65px;
+    height:65px;
+    border: 1px solid #eeeeee;
+    box-shadow: 2px 2px 2px #cccccc;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: #C9DFCC ;
+    text-align: center;
+}
+.box3{
+    display: inline-block;
+    width:65px;
+    height:65px;
+    border: 1px solid #eeeeee;
+    box-shadow: 2px 2px 2px #cccccc;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: #AFB0AF  ;
+    text-align: center;
+}
+.countryname{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+}
