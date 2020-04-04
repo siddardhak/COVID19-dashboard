@@ -12,13 +12,11 @@
     "bootstrap": "^4.4.1",
     "chart.js": "^2.9.3",
     "country-list": "^2.2.0",
-    "fusioncharts": "^3.15.1-sr.1",
     "lodash": "^4.17.15",
     "react": "^16.13.1",
     "react-chartkick": "^0.4.0",
     "react-device-detect": "^1.11.14",
     "react-dom": "^16.13.1",
-    "react-fusioncharts": "^3.1.2",
     "react-jvectormap": "0.0.16",
     "react-png-tooltip": "^1.2.0",
     "react-router": "^5.1.2",
@@ -28,6 +26,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy":"aws s3 sync build/ s3://covid19reactappsid --acl public-read",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

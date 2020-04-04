@@ -4,6 +4,12 @@
     border-collapse: collapse;
     margin-top: 50px;
 }
+.tableclassmobile{
+    width: 20%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
 .rowclassname{
     text-align: center;
 }

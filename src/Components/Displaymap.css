@@ -5,6 +5,12 @@
 .worldmap-mobile{
     text-align: center;
 }
+.jvectormap-zoomin{
+    display: none;
+}
+.jvectormap-zoomout{
+    display: none;
+}
 svg{
     height:600px
 }

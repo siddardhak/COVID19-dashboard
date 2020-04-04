@@ -39,7 +39,7 @@ class TimeLine extends Component{
             <div className="timeline">
                 <h2>Historical Data</h2>
                <div>
-                <LineChart data={this.state.data} width="400px" height="400px"  label="Cases" xtitle="Dates" ytitle="Cases" stacked={true}  legend={true} download={true}/>
+                <LineChart data={this.state.data} width="350px" height="400px"  label="Cases" xtitle="Dates" ytitle="Cases" stacked={true}  legend={true} download={true}/>
                 </div>
             </div>
         );

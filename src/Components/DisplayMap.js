@@ -99,6 +99,7 @@ class DisplayMap extends Component{
       return(<div>
         <div className="worldmap-mobile">
                 <h2>World Map Tracker</h2>
+                <p style={{fontSize:15,fontStyle:'italic'}}>*Tap on Country to Display data</p>
                 <p><span className="box-mobile"><p style={{fontSize:10, color:'#F40D10'}}>Confirmed</p> <p style={{fontSize:10, color:'#F40D10'}}>{this.state.responsesata[0].cases}</p></span><span className="box1-mobile"><p style={{fontSize:10, color:'#2D11F3'}}>Active</p> <p style={{fontSize:10, color:'#2D11F3'}}>{this.state.responsesata[0].active}</p></span></p><p> <span className="box2-mobile"><p style={{fontSize:10, color:'#197C07'}}>Recovered</p> <p style={{fontSize:10, color:'#197C07'}}>{this.state.responsesata[0].recovered}</p></span><span className="box3-mobile"><p style={{fontSize:10, color:'#666666'}}>Deaths</p> <p style={{fontSize:10, color:'#666666'}}>{this.state.responsesata[0].deaths}</p></span></p>
                 <h3 className="countryname">{this.state.countryName}</h3>
             <VectorMap 
