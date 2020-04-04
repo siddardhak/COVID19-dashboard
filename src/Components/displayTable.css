@@ -1,5 +1,5 @@
 .tableclass{
-    width: 90%;
+    width: 80%;
     margin: auto;
     border-collapse: collapse;
     margin-top: 50px;
@@ -15,7 +15,7 @@
 }
 #countryData td, #countryData th{
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 3px;
 }
 #countryData tr:nth-child(even){background-color: #f2f2f2;}
 

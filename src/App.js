@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios';
 import AllCases from './Components/allcases';
 import DisplayTable from './Components/displayTable';
+import TimeLine from './Components/TimeLine';
 import DisplayMap from './Components/DisplayMap';
 
 
@@ -30,10 +31,11 @@ class App extends Component {
   render(){
   return (
     <div className="App">
-    <h1>COVID19 TRACKER</h1>
+    <h1>Covid19 TRACKER</h1>
     <AllCases totalcases={this.state.totalcases[0].cases} activecases = {this.state.totalcases[0].active} recoveredcases = {this.state.totalcases[0].recovered} deaths={this.state.totalcases[0].deaths}/>
-    <DisplayTable response={this.state.responsedata}/>
     <DisplayMap responses={this.state.responsedata} />
+    <TimeLine/>
+    <DisplayTable response={this.state.responsedata}/>
     </div>
   );
 }

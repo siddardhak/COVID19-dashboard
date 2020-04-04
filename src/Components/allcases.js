@@ -1,7 +1,9 @@
 import React from 'react';
 import './Acases.css';
+import {isBrowser,isMobileOnly} from 'react-device-detect'
 
 const allcases = props =>{
+    if(isBrowser){
     return(
         <div>
             <table className="totaldata" >
@@ -18,5 +20,13 @@ const allcases = props =>{
             </table>
         </div>
     );
+    }
+    else if(isMobileOnly){
+        return(
+            <div>
+
+            </div>
+        );
+    }
 }
 export default allcases;

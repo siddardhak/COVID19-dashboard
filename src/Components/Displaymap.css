@@ -2,6 +2,9 @@
     margin-top: 100px;
     text-align: center;
 }
+.worldmap-mobile{
+    text-align: center;
+}
 svg{
     height:600px
 }
@@ -53,4 +56,50 @@ svg{
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: crimson;
+}
+.jvectormap-tip{
+    display: none;
+}
+
+.box-mobile{
+    display: inline-block;
+    width:45px;
+    height:45px;
+    border: 1px solid #eeeeee;
+    box-shadow: 2px 2px 2px #cccccc;
+    padding: 15px;
+    background-color:#FABCBD;
+    text-align: center;
+}
+.box1-mobile{
+    display: inline-block;
+    width:45px;
+    height:45px;
+    border: 1px solid #eeeeee;
+    box-shadow: 2px 2px 2px #cccccc;
+    padding: 15px;
+    margin-left: 15px;
+    background-color:#9388E5;
+    text-align: center;
+}
+.box2-mobile{
+    display: inline-block;
+    width:45px;
+    height:45px;
+    border: 1px solid #eeeeee;
+    box-shadow: 2px 2px 2px #cccccc;
+    padding: 15px;
+    background-color: #C9DFCC ;
+    text-align: center;
+}
+.box3-mobile{
+    display: inline-block;
+    width:45px;
+    height:45px;
+    border: 1px solid #eeeeee;
+    box-shadow: 2px 2px 2px #cccccc;
+    padding: 15px;
+    margin-left: 12px;
+    background-color: #AFB0AF  ;
+    text-align: center;
 }
