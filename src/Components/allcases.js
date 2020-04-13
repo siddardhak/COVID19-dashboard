@@ -27,10 +27,10 @@ const allcases = props =>{
             <table className="totaldata" cellPadding="5">
             <tbody>
 
-                        <tr><th style={{color:'Red'}}>Total Cases</th></tr><tr><td style={{color:'#CC3300'}}>{props.totalcases}</td></tr>
-                        <tr><th style={{color:'Blue'}}>Active Cases</th></tr><tr><td style={{color:'#3366FF'}}>{props.activecases}</td></tr>
-                        <tr><th style={{color:'Green'}}>Recovered</th></tr><tr><td style={{color:'#33CC00'}}>{props.recoveredcases}</td></tr>
-                        <tr><th style={{color:'Grey'}}>Deaths</th></tr><tr><td style={{color:'#888888'}}>{props.deaths}</td></tr>
+                        <tr><th style={{color:'Red', fontSize:23}}>Total Cases</th></tr><tr><td style={{color:'#CC3300'}}>{props.totalcases}</td></tr>
+                        <tr><th style={{color:'Blue',fontSize:23}}>Active Cases</th></tr><tr><td style={{color:'#3366FF'}}>{props.activecases}</td></tr>
+                        <tr><th style={{color:'Green',fontSize:23}}>Recovered</th></tr><tr><td style={{color:'#33CC00'}}>{props.recoveredcases}</td></tr>
+                        <tr><th style={{color:'Grey',fontSize:23}}>Deaths</th></tr><tr><td style={{color:'#888888'}}>{props.deaths}</td></tr>
                 </tbody>
             </table>
         </div>
