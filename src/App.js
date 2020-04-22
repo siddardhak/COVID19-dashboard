@@ -16,10 +16,10 @@ class App extends Component {
   }
 
   componentDidMount(){
-      axios.get('https://corona.lmao.ninja/countries').then(response=>{
+      axios.get('https://corona.lmao.ninja/v2/countries').then(response=>{
         this.setState({responsedata:response.data})
       })
-      axios.get('https://corona.lmao.ninja/all').then(response=>{
+      axios.get('https://corona.lmao.ninja/v2/all').then(response=>{
         const totaldata = response.data;
         this.setState({
           totalcases:[

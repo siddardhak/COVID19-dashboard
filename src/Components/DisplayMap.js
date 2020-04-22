@@ -22,7 +22,7 @@ class DisplayMap extends Component{
         label.splice(0,1);
         label.splice(2,1);
         const name = getName(code)
-        axios.get('https://corona.lmao.ninja/countries/'+name).then(response=>{
+        axios.get('https://corona.lmao.ninja/v2/countries/'+name).then(response=>{
             const countrydata = response.data;
             this.setState({
                 responsesata:[
